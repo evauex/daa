@@ -1,6 +1,6 @@
 ```mermaid
     flowchart TD;
-    A --> B;
-    B --> C;
-    C --> D;
+    A(Start) --> B[/masukkan angka/];
+    B --> C[/print angka/];
+    C --> D(finish);
 ```
